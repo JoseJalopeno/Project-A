@@ -17,6 +17,7 @@ public class Converter {
 					int cups = sc.nextInt();
 					int teaspoons = cupsToTeaspoons(cups);
 					System.out.println(cups + " cup(s) is " + teaspoons + " teaspoons");
+					System.out.println();
 					break;
 				}
 				case 2: {
@@ -24,6 +25,7 @@ public class Converter {
 					int miles = sc.nextInt();
 					double kilometers = milesToKilometers(miles);
 					System.out.println(miles+ " mile(s) is " + kilometers + " kilometers");
+					System.out.println();
 					break;
 				}
 				case 3: {
@@ -31,9 +33,11 @@ public class Converter {
 					int usGallons = sc.nextInt();
 					double imperialGallons = usGallonsToImperial(usGallons);
 					System.out.println(usGallons + " US gallon(s) is " + imperialGallons + " imperiald gallons");
+					System.out.println();
 					break;
 				}
 				case 4: {
+					System.out.println("Thank you for using this conversion program!");
 					break;
 				}
 				default: {
